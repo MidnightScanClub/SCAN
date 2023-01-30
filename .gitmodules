@@ -1,0 +1,3 @@
+[submodule "extern/wbsurfer"]
+	path = extern/wbsurfer
+	url = https://gitlab.com/vanandrew/wbsurfer.git
