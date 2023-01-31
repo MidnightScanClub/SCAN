@@ -1,0 +1,31 @@
+rec subcortical_mask_LR_333_MNI.4dfp.img Thu Oct 15 09:39:04 CDT 2015 egordon
+t4img_4dfp /data/nil-bluearc/raichle/lin64-tools/711-2B_to_MNI152lin_T1_t4 subcortical_mask_LR_333.4dfp.img -n subcortical_mask_LR_333_MNI.4dfp.img
+$Id: t4img_4dfp,v 1.12 2015/03/26 03:08:25 avi Exp $
+rec subcortical_mask_LR_333_MNI.4dfp.img  Thu Oct 15 09:39:04 2015  egordon@tsunami Linux 2.6.32-220.17.1.el6.x86_64 x86_64
+t4imgs_4dfp subcortical_mask_LR_333_MNI.lst subcortical_mask_LR_333_MNI -n 
+$Id: t4imgs_4dfp.c,v 1.36 2011/04/09 00:19:16 avi Exp $
+littleendian
+resampling by nearest-neighbor interpolation
+sub
+subcortical_mask_LR_333	t4=711-2B_to_MNI152lin_T1_t4_noscale
+endsub
+t4
+#t4_inv MNI152lin_T1_to_711-2B_t4
+#$Id: t4_inv.c,v 1.1 2007/05/01 01:20:20 avi Exp $
+t4
+  0.953903 -0.003872 -0.021291   -0.1135
+ -0.010402  0.950932 -0.016412   -3.4194
+  0.020852  0.055067  0.946383    2.5682
+  0.000000  0.000000  0.000000    1.0000
+rec subcortical_mask_LR_333.4dfp.img  Thu Oct 15 09:38:50 2015  egordon@tsunami Linux 2.6.32-220.17.1.el6.x86_64 x86_64
+nifti_4dfp -4 subcortical_mask_LR_333.nii subcortical_mask_LR_333.4dfp.img 
+$Id: nifti_4dfp.c,v 1.9 2011/09/13 03:40:37 avi Exp $
+littleendian
+datatype: 16	 bitpix: 32
+scale: 1.000000	 offset: 0.000000
+common sform[0]:     3.000000	    0.000000	    0.000000	  -70.500000
+common sform[1]:     0.000000	    3.000000	    0.000000	 -105.000000
+common sform[2]:     0.000000	    0.000000	    3.000000	  -60.000000
+endrec Thu Oct 15 09:38:50 2015  egordon
+endrec Thu Oct 15 09:39:04 2015  egordon
+endrec Thu Oct 15 09:39:04 CDT 2015 egordon

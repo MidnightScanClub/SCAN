@@ -1,0 +1,10 @@
+rec subcortical_mask_LR_333.4dfp.img  Thu Oct 15 09:38:50 2015  egordon@tsunami Linux 2.6.32-220.17.1.el6.x86_64 x86_64
+nifti_4dfp -4 subcortical_mask_LR_333.nii subcortical_mask_LR_333.4dfp.img 
+$Id: nifti_4dfp.c,v 1.9 2011/09/13 03:40:37 avi Exp $
+littleendian
+datatype: 16	 bitpix: 32
+scale: 1.000000	 offset: 0.000000
+common sform[0]:     3.000000	    0.000000	    0.000000	  -70.500000
+common sform[1]:     0.000000	    3.000000	    0.000000	 -105.000000
+common sform[2]:     0.000000	    0.000000	    3.000000	  -60.000000
+endrec Thu Oct 15 09:38:50 2015  egordon
