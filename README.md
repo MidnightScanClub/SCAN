@@ -3,7 +3,9 @@
 If you are using this repo please cite:
 
 ```
-Citation Here
+Gordon, E.M., Chauvin, R.J., Van, A.N., Rajesh, A., Nielsen, A., Newbold, D.J., Lynch, C.J., Seider, N.A., 
+Krimmel, S.R., Scheidter, K.M., et al. (2023). A somato-cognitive action network alternates with effector regions 
+in motor cortex. Nature. 10.1038/s41586-023-05964-2.
 ```
 
 ## Usage
